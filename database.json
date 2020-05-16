@@ -1,0 +1,75 @@
+{
+  "accounts": [
+    {
+      "id": 1,
+      "email": "nickg@gmail.com",
+      "password": "123"
+    }
+  ],
+  "breweries": [
+    {
+      "id": 1,
+      "breweryName": "Black Abbey",
+      "hoursOfOperation": "2-7pm",
+      "curbSidePickUp": false,
+      "delivery": true,
+      "location": "2952 Sidco Dr, Nashville, TN‎",
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "breweryName": "Test",
+      "hoursOfOperation": "3-5pm",
+      "curbSidePickUp": true,
+      "delivery": false,
+      "location": "234 Green Grass Way",
+      "userId": 1
+    }
+  ],
+  "beers": [
+    {
+      "beerName": "Nick's Beer",
+      "howManyBeers": "4",
+      "price": "11.99",
+      "alcoholContent": "5.6",
+      "breweryId": 2,
+      "beerTypeId": 1,
+      "id": 3
+    },
+    {
+      "beerName": "TN Cream Beer",
+      "howManyBeers": "6",
+      "price": "11.99",
+      "alcoholContent": "5.8",
+      "breweryId": 1,
+      "beerTypeId": 5,
+      "id": 4
+    }
+  ],
+  "beerTypes": [
+    {
+      "id": 1,
+      "name": "IPA"
+    },
+    {
+      "id": 2,
+      "name": "Porter"
+    },
+    {
+      "id": 3,
+      "name": "Pale Ale"
+    },
+    {
+      "id": 4,
+      "name": "Stout"
+    },
+    {
+      "id": 5,
+      "name": "Dark Lager"
+    },
+    {
+      "id": 6,
+      "name": "Wheat Beer"
+    }
+  ]
+}
